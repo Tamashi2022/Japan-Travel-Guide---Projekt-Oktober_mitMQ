@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Noto+Serif+JP:wght@200&family=Patrick+Hand&family=Shalimar&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="all">
+    <div class="navbar">
+      <h1 class="headline">
+        Welcome to <br />
+        <span class="text-highlight">Japan</span>
+      </h1>
+
+      <div>
+        
+        <a href="#videolink">Videos</a>
+        <a href="#buchunglink">Buchung</a>
+        <a href="https://soundcloud.com/tamashi2022/albums" target="_blank">Musik</a>
+        <a href="https://www.amazon.de/s?k=japan+literatur&crid=3RZOBD1EA2DIR&sprefix=japan+liter%2Caps%2C106&ref=nb_sb_ss_ts-doa-p_1_11" target="_blank">Literatur</a>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img class="header-image" src="header.jpg" />
+
+      <div class="text-container">
+        Sprache heißt verstehen.Laden Sie<a
+          id="vokabeln"
+          href="Vokabeln.pdf"
+          target="_blank"
+          >hier</a
+        >
+        ihre kostenlose Vokabelliste herunter.
+      </div>
+
+      <div class="maps-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662980.6670077122!2d138.64854544496328!3d35.50405283592964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sPr%C3%A4fektur%20Tokio%2C%20Japan!5e0!3m2!1sde!2sde!4v1666544471455!5m2!1sde!2sde"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <div class="text-container maps-right">
+          <p>
+            Japan,japanisch ausgesprochen als Nihon oder Nippon, ist ein 6852
+            Inseln umfassender ostasiatischer Staat im Pazifik, der indirekt im
+            Norden und Nordwesten an Russland, im Westen an Nord- und Südkorea
+            und im Südwesten an Taiwan und China grenzt und flächenmäßig der
+            viertgrößte Inselstaat der Welt ist. De-facto-Hauptstadt und größte
+            urbane Siedlung ist Tokio. Japan ist in ein „Hauptstadtgebiet“ aus
+            acht Präfekturen inklusive Tokio aufgeteil.
+          </p>
+
+          Sehen Sie sich Japan aus der "Luft" an, und benuzten Sie die google
+          Karte auf der <b>linken Seite.</b>
+        </div>
+      </div>
+
+      <div class="text-container2">
+        Tradition und Moderne – zwei Dinge, die unterschiedlicher nicht sein
+        könnten – liegen manchmal ganz nah beieinander. Wie gut diese Symbiose
+        aus neuester Technik und alter Kultur funktioniert, zeigt das
+        unvergleichlich vielseitige Japan.
+      </div>
+
+      <div>
+        <img class="skyline" src="top.jpg" />
+      </div>
+
+      <div class="text-container2">
+        Was kostet meine Traumreise? Worauf muss ich achten? Japan in Bild und
+        Ton.
+      </div>
+
+      <div class="videos" id="videolink">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7KzMfafJoGk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/MciyshhJFuQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div id="Urlaub">
+        <h1 class="headline">
+          Genugt geträumt? Ab in den Urlaub! Unverbindliches Angebot erfragen
+        </h1>
+      </div>
+
+      <div class="Buchung" id="buchunglink">
+        <div class="tabelle">
+          <form>
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" name="name" />
+            </p>
+            <p>
+              <label for="tel">Telefonnummer:</label>
+              <input type="tel" name="tel" placeholder="0985/335510" />
+            </p>
+            <p>
+              <label for="mail">E-Mail:</label>
+              <input type="mail" name="mail" placeholder="deine@mail.de" />
+            </p>
+            <p>
+              <label for="from">Reisezeit von:</label>
+              <input type="date" name="from" />
+              <label for="to">bis:</label>
+              <input type="date" name="to" />
+            </p>
+            <p>Nachricht:</p>
+            <textarea rows="10" cols="40" name="message"> </textarea>
+            <p>
+              <input type="checkbox" name="data" />Ich habe die
+              <a href="text.txt">Datenschutzerklärung</a> gelesen.
+            </p>
+            <input type="submit" value="OK" class="button" />
+          </form>
+        </div>
+
+           <div class="liste">
+          <span id="listentext">Wichtige Fakten zur Reise und Auswanderung</span>
+          <div class="linkliste">
+           <ul>
+              <li><a href="https://doyouknowjapan.com/"target="_blank">Traditionelles Japan</a></li>
+              <li><a href="https://sumikai.com/nachrichten-aus-japan/"target="_blank">Nachrichten aus Japan</a></li>
+              <li><a href="https://www.packimpex.de/de/blog/nach-japan-auswandern/"target="_blank">Auswandern</a></li>
+              <li><a href="https://www.auslandsjob.de/jobs-im-ausland/arbeiten-ausland/japan/"target="_blank">Arbeiten in Japan</a></li>
+              <li><a href="https://www.auswaertiges-amt.de/de/aussenpolitik/laender/japan-node/japan/213030"target="_blank">Auswärtiges Amt</a></li>
+           </ul>
+           <div class="flag">
+            <img id="size" src="flag.jpg">
+          </div>
+
+
+          </div>
+          </div>
+          </div>
+
+          <div class="text-container2">
+            &copy Tamashi Travel AG | <b>Impressum</b> | <b>Datenschutz</b>
+          </div>
+        </div>
+
+        
+      
+  </body>
+</html>

@@ -1,0 +1,192 @@
+@media screen and (max-width: 768px) {
+
+    body {
+        background-image: url(japan.jpg);
+        background-size: cover;
+       margin: 0;
+       padding: 0;
+        
+     
+        
+        
+        
+        
+    }
+
+
+.all {
+    margin-left: 100px;
+    width:400px
+    
+}
+
+
+    
+    .headline {
+        font-family: 'Great Vibes', cursive;
+    
+        color : #831d17;
+    
+    
+    }
+    
+    .header-image {
+    
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 100% 36%;
+        display: block;
+        opacity: 0;
+    
+    
+    
+    
+    }
+    
+    .image-container {
+        background-color: white;
+        padding: 16px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    a {
+        font-family: 'Patrick Hand', cursive;
+        text-decoration: none;
+        font-weight: 600;
+        margin-left: 16px;
+        color: #831d17
+        
+    
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .text-highlight {
+    
+        color: #484846;
+        font-size: 54px;
+        padding-left: 60px;
+    
+    }
+    
+    #vokabeln {
+        margin-left:3px
+    }
+    
+    .text-container {
+    
+        font-weight: 3600px;
+        font-family: 'Patrick Hand', cursive;
+        background-color: #dedede;
+        padding:8px;
+        color:484846;
+    
+    }
+    
+    .maps-container {
+        display: none;
+        justify-content: space-between;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    
+    }
+    
+    .maps-right {
+        widht:30%;
+        margin-left: 1px;
+    }
+    
+    
+    .header-image {
+        animation: bild 3s linear 1s;
+        animation-fill-mode: forwards;
+    
+    }
+    
+    @keyframes bild {
+    
+        from {
+    opacity: 0;
+    
+        }
+    
+        to {
+            opacity: 1;
+        }
+    
+    }
+    
+    .skyline {
+      margin-bottom: 16px;
+      object-fit: cover;
+      width: 100%
+      
+    }
+    
+    .text-container2 {
+    
+       
+        font-weight: 3600px;
+        font-family: 'Patrick Hand', cursive;
+        background-color: #dedede;
+        padding:8px;
+        color:484846;
+    
+    }
+    
+    .videos {
+        
+        display: none;
+        margin-bottom: 40px;;
+    }
+    
+    #Urlaub {
+       
+        text-align: center;
+    }
+    
+    .Buchung {
+       display: flex;
+       justify-content: space-between;
+       padding-left: 50px;
+       padding-right: 150px;
+       
+        
+    }
+    
+    #listentext {
+       
+        display: none;
+    }
+    
+    ul {
+        padding-left: 60px;
+        
+    }
+    
+    #size {
+     width: 300px   
+    }
+    
+    .flag {
+       display: none;
+    }
+    
+    
+
+
+
+
+
+
+
+}
+    
